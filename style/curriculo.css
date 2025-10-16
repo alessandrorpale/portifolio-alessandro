@@ -1,0 +1,204 @@
+:root{
+  --cor-primaria: #2C7865;
+  --cor-secundadria: #D9EDBF;
+  --cor-terciaria: #FFB433;
+  --cor-hover: #90D26D;
+  --cor-borda:#545353;
+
+  --fonte-primaria : "Krona One", sans-serif;
+  --fonte-secundadria: "Montserrat", sans-serif;}
+
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital@0;1&display=swap');
+
+*{padding: 0;
+margin: 0;}
+
+body{
+/* height: 100vh; */
+box-sizing: border-box;
+background-color: var(--cor-primaria);
+color: var(--cor-secundadria);}
+
+.cabecalho{
+padding: 2% 0% 0% 15%;}
+
+.cabecalho__menu{display: flex;
+gap: 80px;}
+       
+
+.cabecalho__menu__link{
+text-decoration: none;
+ font-size: 1.5rem;
+font-family: var(--fonte-secundadria);
+font-weight: 600;
+color: var(--cor-terciaria);
+border-bottom: var(--cor-hover) 3px solid;
+border-right: var(--cor-hover) 3px solid;
+padding-bottom: 7px; 
+padding-right: 7px;}
+      
+.cabecalho__menu__link:hover{
+background-color: var(--cor-hover);
+transition: 2s;}
+
+
+.apresentacao{
+padding: 5% 10% 5% 10%;} 
+
+.apresentacao__cabecalho{
+      
+display: flex;
+justify-content: space-between;
+padding-bottom: 2%;
+align-items: center;}
+
+.apresentacao__cabecalho__artigo{
+
+display: flex;
+align-items: center;
+gap: 20px;}
+
+
+
+.apresentacao__cabecalho__titulo{
+      
+color: var(--cor-secundadria);
+font-size: 2.25rem;
+font-family: var(--fonte-primaria);
+/*text-shadow: 2px 2px 4px var(--cor-hover) */;}
+
+.apresentacao__cabecalho__texto{
+color: var(--cor-secundadria);
+font-size: 1.5rem;
+font-family: var(--fonte-primaria);
+
+/*  
+text-shadow: 2px 2px 4px var(--cor-hover)*/;}
+
+.apresentacao__cabecalho__imagem{
+border-radius: 50%;}
+
+.borda__divisao{
+
+margin: 20px 0px 20px 0px;}
+
+.apresentacao__conteudo{
+display: flex;
+justify-content: space-between;}
+
+.apresentacao__conteudo__artigo{
+width: 50%;}
+
+.apresentacao__conteudo__sessao{
+width:50%;}
+
+
+.apresentacao__conteudo__titulo{
+color: var(--cor-secundadria);
+font-size: 1.5em;
+font-family: var(--fonte-primaria);
+/*text-shadow: 2px 2px 4px var(--cor-hover)*/;}
+
+.apresentacao__conteudo__texto{
+font-size: 1.25rem;
+color: var(--cor-secundadria);
+font-family: var(--fonte-secundadria);}
+
+.apresentacao__conteudo__subtitulo{
+color: var(--cor-secundadria);
+font-size: 1.25rem;
+font-family: var(--fonte-primaria);}
+
+.apresentacao__conteudo__rodape{
+display: flex;
+justify-content: space-between;}
+
+.conteudo__rodape__habilidades__idioma{
+display: flex;
+justify-content: space-between;
+gap: 17.5rem;}
+
+.rodape{
+text-align: center;
+padding: 23.64px 0px;
+color: var(--cor-primaria);
+background-color: var(--cor-terciaria);
+font-size: 1.5rem;
+font-family: var(--fonte-secundadria);
+font-weight: 400;}
+
+@media(max-width: 1200px) {
+      
+.cabecalho{
+padding: 10%;}
+
+.cabecalho__menu{
+justify-content: center;}
+
+.apresentacao__cabecalho{flex-direction: column;
+justify-content: center;
+gap: 40px;}
+
+.apresentacao__cabecalho__artigo{
+gap: 50px;
+align-items: center;
+align-content: center;}
+
+.apresentacao__cabecalho__titulo{align-items: center;}
+        
+.apresentacao{
+width: auto;
+padding: 5%;}
+
+.conteudo__rodape__habilidades__idioma{flex-direction: column;
+gap: 30px;
+align-content: center;}  
+}
+
+@media(max-width: 800px){
+
+.cabecalho{
+padding: 10%;}
+
+.cabecalho__menu{
+justify-content: center;}
+
+.apresentacao__cabecalho{flex-direction: column;
+justify-content: center;
+gap: 40px;}
+
+.apresentacao{
+width: auto;
+padding: 5%;}
+
+.apresentacao__conteudo{flex-direction: column;}
+}
+
+@media(max-width: 550px) {
+
+.cabecalho{
+padding: 10%;}
+
+.cabecalho__menu{
+justify-content: center;
+gap: 40px;}
+
+.apresentacao__cabecalho{flex-direction: column;
+justify-content: center;
+gap: 40px;}
+
+.apresentacao{
+width: auto;
+padding: 5%;}
+
+.apresentacao__conteudo{flex-direction: column;}
+
+.apresentacao__cabecalho__texto{width: 50%;}
+
+.apresentacao__cabecalho__imagem{width: 50%;}
+
+.apresentacao__conteudo__rodape{flex-direction: column;
+gap: 40px;}
+
+.apresentacao__cabecalho__artigo{ gap: 70px;}
+}
