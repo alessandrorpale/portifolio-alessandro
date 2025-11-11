@@ -1,8 +1,8 @@
 :root{
-  --cor-primaria: #2C7865;
-  --cor-secundadria: #D9EDBF;
-  --cor-terciaria: #FFB433;
-  --cor-hover: #90D26D;
+  --cor-primaria: #ECEFCA;
+  --cor-secundadria: #213448;
+  --cor-terciaria: #94B4C1;
+  --cor-hover: #94B4C1;
   --cor-borda:#545353;
 
   --fonte-primaria : "Krona One", sans-serif;
@@ -76,7 +76,9 @@ font-family: var(--fonte-primaria);
 text-shadow: 2px 2px 4px var(--cor-hover)*/;}
 
 .apresentacao__cabecalho__imagem{
-border-radius: 50%;}
+border-radius: 50%;
+border: 1px solid var(--cor-borda);
+}
 
 .borda__divisao{
 
