@@ -11,7 +11,8 @@
 
 Olá sou Alessandro e esse é meu primeiro trabalho feito com os cursos da Alura ,um portifólio em desenvolvimento onde estou estudando e praticando HTML ,CSS e GITHUB. 
 
-[![home-portifolio](https://alessandrorpale-portif-git-a38ae9-alessandros-projects-1e1fb66c.vercel.app/)](https://alessandrorpale-portif-git-a38ae9-alessandros-projects-1e1fb66c.vercel.app)
+[![home-portifolio](<img width="847" height="601" alt="Captura de ecrã 2026-05-09 163012" src="https://github.com/user-attachments/assets/d1ed9300-f333-43a1-83bf-63b68ee68ef9" />
+)](https://alessandrorpale-portif-git-a38ae9-alessandros-projects-1e1fb66c.vercel.app)
 
 
 
