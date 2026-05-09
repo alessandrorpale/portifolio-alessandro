@@ -1,8 +1,8 @@
 :root{
-  --cor-primaria: #ECEFCA;
-  --cor-secundadria: #213448;
-  --cor-terciaria: #94B4C1;
-  --cor-hover: #94B4C1;
+  --cor-primaria: #012d39;
+  --cor-secundadria: #E6EEC9;
+  --cor-terciaria: #A2CB8B;
+  --cor-hover: #02c5fb;
 
   --fonte-primaria : "Krona One", sans-serif;
   --fonte-secundadria: "Montserrat", sans-serif;}
@@ -34,19 +34,21 @@ gap: 80px;}
        
 
 .cabecalho__menu__link{
+padding: 0.5rem 0.8rem;
+border-radius: 0.5rem;
 text-decoration: none;
 font-size: 1.5rem;
 font-family: var(--fonte-secundadria);
 font-weight: 600;
 color: var(--cor-terciaria);
-border-bottom: var(--cor-hover) 3px solid;
-border-right: var(--cor-hover) 3px solid;
-padding-bottom: 7px; 
-padding-right: 7px;}
+border-right: 1px solid var(--cor-terciaria);
+border-bottom: 1px solid var(--cor-terciaria);
+transition: 0.25s ease;}
       
 .cabecalho__menu__link:hover{
-background-color: var(--cor-hover);
-transition: 2s;}
+ background: rgba(0,0,0,0.05);
+  border-color: var(--cor-hover);
+  transform: translateY(-2px);}
 
 .apresentacao__conteudo{display: flex;
 flex-direction: column;
@@ -83,9 +85,10 @@ font-family: var(--fonte-secundadria);}
     justify-content:center;
     align-items: center;
     gap: 16px;
-    color: var(--cor-secundadria);
+    color: var(--cor-terciaria);
     text-decoration: none;
-    border: var(--cor-terciaria) 2px solid;
+    border-bottom: solid 1px var(--cor-terciaria);
+    border-right: solid 1px var(--cor-terciaria);
     padding: 16px;
     width: 50%;
     border-radius: 8px;
@@ -95,8 +98,9 @@ font-family: var(--fonte-secundadria);}
     font-weight: 400;}
 
     .apresentacao__links__link:hover{
-      background-color: var(--cor-hover);
-      transition: 2s;}
+      background: rgba(0,0,0,0.05);
+      border-color: var(--cor-hover);
+      transform: translateY(-2px);}
 
       .apresentacao__imagem{
         width: 50%;}
@@ -104,7 +108,7 @@ font-family: var(--fonte-secundadria);}
     .rodape{
       text-align: center;
       padding: 23.64px 0px;
-      color: var(--cor-secundadria);
+      color: var(--cor-primaria);
       background-color: var(--cor-terciaria);
       font-size: 1.5rem;
       font-family: var(--fonte-secundadria);
